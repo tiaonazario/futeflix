@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --cor: #A8A6A6;
+    --cor-fundo: #1D1D1D;
+    --cor-destak: #E8E8E8;
+    --cor-item: #820B0B;
+    --cor-alfa: rgba(0,0,0,.5)
+    --cor-grad: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)100%);
+    --font: 'Dosis', sans-serif;
+    --borda: .1rem solid var(--cor);
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+/* configurnado o estilo e resetando o que não quero */
+* {
+    font-family: var(--font);
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43, 1.1, .62, 1.08);
+    text-transform: capitalize;
+
+    background-color: var(--cor-fundo);
+}
+
+* > img {
+    user-select: none;
+    pointer-events: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: var(--cor-destak);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--cor-item);
+}
+
+header {
+    padding: 1rem 2%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--cor-item);
+}
+
+.logo img {
+    height: 2.5rem;
+}
+
+.navegacao a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--cor);
+}
+
+.navegacao a:hover {
+    color: var(--cor-destak);
+}
+
+#btn-menu {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color:var(--cor);
+    display: none;
+}
