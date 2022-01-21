@@ -1,4 +1,8 @@
-# ![Logo](img/favicon.svg) FuteFlix
+<p align="center">
+  <img height="100rem" src="img/favicon.svg"/>
+</p>
+
+# FuteFlix
 
 Seu catalogo de inforações sobre os times, jogadores e competições de futebol.
 
