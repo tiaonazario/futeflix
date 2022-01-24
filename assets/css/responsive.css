@@ -27,6 +27,7 @@
         position: absolute;
         top:99%; left:0; right:0;
         border-top: var(--borda);
+        background-color: var(--cor-fundo);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     .menu-principal.active {
@@ -44,7 +45,7 @@
 
 @media (max-width:450px){
      html{
-        font-size: 50%;
+        font-size: 1rem;
     }
     header{
         padding: 2.5vh 5vw;

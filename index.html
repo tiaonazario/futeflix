@@ -12,6 +12,8 @@
 
     <!-- favicon -->
     <link rel="shortcut icon" href="img/icons/favicon.svg" type="image/x-icon">
+    <!-- estilo da ferramenta que gera carrossel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
 </head>
 <body>
@@ -34,6 +36,7 @@
     <main>
         <!-- conteudo pricipal -->
         <section id="times">
+            <!-- seção referente a time de futebol -->
             <div class="informacao-time">
                 <img src="" alt="logo do time" class="logo-time">
                 <h2 class="nome-time"></h2>
@@ -49,7 +52,21 @@
                     </button>
                 </div>
             </div>
+        </section>
 
+        <section id="jogadores">
+            <!-- seção referente aos jogadores -->
+            <div class="swiper slide-jogadores">
+                <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide slide"></div> -->
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section id="ver-jogadores">
+            <div id="fechar-ver" class="fas fa-times"></div>
         </section>
     </main>
         

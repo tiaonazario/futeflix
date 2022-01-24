@@ -9,7 +9,7 @@
     --cor-grad: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)100%);
     --font: 'Dosis', sans-serif;
     --borda: .1vh solid var(--cor);
-    --box-shadow: 0 0.5vh 1vh rgba(0,0,0,.1);
+    --box-shadow: 0 0.5vh 1vh rgba(0,0,0,.3);
 }
 
 /* resetando o estilo */
@@ -23,7 +23,7 @@
     transition: all 0.4s cubic-bezier(.43, 1.1, .62, 1.08);
     text-transform: capitalize;
     font-family: var(--font);
-    font-size: 16pt;
+    font-size: 1.1rem;
 }
 
 * > img {
@@ -34,12 +34,12 @@
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 5rem;
     color:var(--cor);
 }
 
 html::-webkit-scrollbar {
-    width: 1vw;
+    width: .6rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -101,22 +101,16 @@ header {
 /* === === === conteudo === === === */
 main {
     background-color: var(--cor-fundo);
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 10vh;
 }
 .informacao-time {
-    width: 100vw;
-    /* height: 90vh; */
     padding-top: 10vh;
     padding-bottom: 10vh;
-
-    background-size: cover !important;
-    background-position: center !important;
-    position: relative;
     z-index: 0;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -125,11 +119,11 @@ main {
     animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34).4s backwards;
 }
 .logo-time {
-    height: 15vw;
+    height: 200px;
     animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34).2s backwards;
 }
 .nome-time {
-    font-size: 22pt;
+    font-size: 1.5rem;
     color: var(--cor-destak);
     padding-top: 3vh;
 }
@@ -147,7 +141,7 @@ main {
     border: none;
 
     margin-right: 1vw;
-    font-size: 14pt;
+    font-size: .8rem;
     padding: 1vw 2vh;
 
     cursor: pointer;
@@ -157,14 +151,122 @@ main {
 .botao:hover {
     background-color: var(--cor-destak);
     color: var(--cor-fundo);
+    letter-spacing: .1rem;
 }
 .botao i {
     margin-right: .5vw;
 }
 
+/* -------- seção jogadores -------- */
+.jogadores {
+    height: 100vh;
+}
+.slide {
+    text-align: center;
+    border-radius: .5rem;
+    transform: scale(.9);
+    opacity: .5;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.jogador{
+    height: 100%;
+}
+.numero-jogador {
+    position: relative;
+    font-size: 2rem;
+    color: var(--cor-destak);
+    top: 7vh;
+    left: -15vh;
+}
+.imagem-jogador {
+    position: relative;
+    top: -5vh;
+    height: 50vh;
+    left: 0;
+    border-bottom: .1rem solid var(--cor2);
+}
+.nome-jogador {
+    position: relative;
+    top: -5vh;
+    font-size: 2rem;
+    color: var(--cor-destak);
+}
+.posicao-jogador {
+    position: relative;
+    top: -4vh;
+    font-size: 1rem;
+    color: var(--cor2);
+}
+.swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+    background: rgba(0,0,0,.6);
+    border: var(--borda);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: var(--cor-destak);
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    bottom: 0;
+}
+
+/* -------- seção ver jogadores -------- */
+#ver-jogadores {
+    background: var(--cor-fundo);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1100;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.ver-jogador {
+    text-align: center;
+    transform: scale(1.2);
+    opacity: 1;
+    width: 60vw;
+
+    display: none;
+    align-items: center;
+}
+.ver-jogador.active {
+    opacity: 1;
+    display: flex;
+    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) backwards;
+}
+.dados-jogador{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    width: 40vw;
+}
+.dados-jogador p {
+    font-size: 1rem;
+    padding-bottom: .3rem;
+}
+#fechar-ver {
+    position: absolute;
+    top: 5vh;
+    right: 10vw;
+    font-size: 5vh;
+    cursor: pointer;
+    color: var(--cor);
+}
+#fechar-ver:hover {
+    transform: rotate(90deg);
+}
+
 /* === === === rodapé === === === */
 footer {
     background-color: var(--cor-fundo);
+    width: 100%;
 
     display: flex;
     flex-direction: row;

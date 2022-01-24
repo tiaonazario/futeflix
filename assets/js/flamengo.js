@@ -7,7 +7,7 @@ const flamengo = {
         "1": {
             "nome": "Diego Alves",
             "nome_completo": "Diego Alves Carreira",
-            "posicao": "Goleiros",
+            "posicao": "Goleiro",
             "nascimento": "24\/06\/1985",
             "cidade": "Rio de Janeiro",
             "imagem": "img\/jogadores\/flamengo_1.png",
@@ -16,7 +16,7 @@ const flamengo = {
         "37": {
             "nome": "C\u00e9sar",
             "nome_completo": "C\u00e9sar Bernardo Dutra",
-            "posicao": "Goleiros",
+            "posicao": "Goleiro",
             "nascimento": "27\/01\/1992",
             "cidade": "Rio de Janeiro\/RJ",
             "imagem": "img\/jogadores\/flamengo_37.png",
@@ -25,7 +25,7 @@ const flamengo = {
         "22": {
             "nome": "Gabriel Batista",
             "nome_completo": "Gabriel Batista de Souza",
-            "posicao": "Goleiros",
+            "posicao": "Goleiro",
             "nascimento": "03\/06\/1998",
             "cidade": "S\u00e3o Gon\u00e7alo\/RJ",
             "imagem": "img\/jogadores\/flamengo_22.png",
@@ -34,7 +34,7 @@ const flamengo = {
         "45": {
             "nome": "Hugo Souza",
             "nome_completo": "Hugo de Souza Nogueira",
-            "posicao": "Goleiros",
+            "posicao": "Goleiro",
             "nascimento": "31\/01\/1999",
             "cidade": "Duque de Caxias - RJ",
             "imagem": "img\/jogadores\/flamengo_45.png",
@@ -43,7 +43,7 @@ const flamengo = {
         "3": {
             "nome": "Rodrigo Caio",
             "nome_completo": "Rodrigo Caio Coquette Russo",
-            "posicao": "Zagueiros",
+            "posicao": "Zagueiro",
             "nascimento": "17\/08\/1993",
             "cidade": "Dracena",
             "imagem": "img\/jogadores\/flamengo_3.png",
@@ -52,7 +52,7 @@ const flamengo = {
         "2": {
             "nome": "Rodinei",
             "nome_completo": "Rodinei Marcelo de Almeida",
-            "posicao": "Laterais Direitos",
+            "posicao": "Lateral Direito",
             "nascimento": "29\/01\/1992",
             "cidade": "Tatu\u00ed\/SP",
             "imagem": "img\/jogadores\/flamengo_2.png",
@@ -61,7 +61,7 @@ const flamengo = {
         "4": {
             "nome": "L\u00e9o Pereira",
             "nome_completo": "Leonardo Pereira",
-            "posicao": "Zagueiros",
+            "posicao": "Zagueiro",
             "nascimento": "31\/01\/1996",
             "cidade": "Curitiba, PR",
             "imagem": "img\/jogadores\/flamengo_4.png",
@@ -70,7 +70,7 @@ const flamengo = {
         "23": {
             "nome": "David Luiz",
             "nome_completo": "David Luiz Moreira Marinho",
-            "posicao": "Zagueiros",
+            "posicao": "Zagueiro",
             "nascimento": "22\/04\/1987",
             "cidade": "Diadema",
             "imagem": "img\/jogadores\/flamengo_23.png",
@@ -79,7 +79,7 @@ const flamengo = {
         "44": {
             "nome": "Isla",
             "nome_completo": "Mauricio An\u00edbal Isla Isla",
-            "posicao": "Laterais Direitos",
+            "posicao": "Lateral Direito",
             "nascimento": "12\/06\/1988",
             "cidade": "Buin",
             "imagem": "img\/jogadores\/flamengo_44.png",
@@ -88,7 +88,7 @@ const flamengo = {
         "34": {
             "nome": "Matheuzinho",
             "nome_completo": "Matheus Fran\u00e7a Silva",
-            "posicao": "Laterais Direitos",
+            "posicao": "Lateral Direito",
             "nascimento": "08\/09\/2000",
             "cidade": "Londrina",
             "imagem": "img\/jogadores\/flamengo_34.png",
@@ -97,7 +97,7 @@ const flamengo = {
         "6": {
             "nome": "Ren\u00ea",
             "nome_completo": "Ren\u00ea Rodrigues Martins",
-            "posicao": "Laterais Esquerdos",
+            "posicao": "Lateral Esquerdo",
             "nascimento": "14\/09\/1992",
             "cidade": "Picos\/PI",
             "imagem": "img\/jogadores\/flamengo_6.png",
@@ -106,7 +106,7 @@ const flamengo = {
         "16": {
             "nome": "Filipe Lu\u00eds",
             "nome_completo": "Filipe Lu\u00eds Kasmirski",
-            "posicao": "Laterais Esquerdos",
+            "posicao": "Lateral Esquerdo",
             "nascimento": "09\/08\/1985",
             "cidade": "Jaragu\u00e1 do Sul, SC",
             "imagem": "img\/jogadores\/flamengo_16.png",
@@ -115,7 +115,7 @@ const flamengo = {
         "36": {
             "nome": "Ramon",
             "nome_completo": "Ramon Ramos Lima",
-            "posicao": "Laterais Esquerdos",
+            "posicao": "Lateral Esquerdo",
             "nascimento": "13\/03\/2001",
             "cidade": "S\u00e3o Jo\u00e3o de Meriti - RJ",
             "imagem": "img\/jogadores\/flamengo_36.png",
@@ -124,7 +124,7 @@ const flamengo = {
         "5": {
             "nome": "Willian Ar\u00e3o",
             "nome_completo": "Willian Souza Ar\u00e3o da Silva",
-            "posicao": "Volantes",
+            "posicao": "Volante",
             "nascimento": "12\/03\/1992",
             "cidade": "S\u00e3o Paulo\/SP",
             "imagem": "img\/jogadores\/flamengo_5.png",
@@ -133,7 +133,7 @@ const flamengo = {
         "18": {
             "nome": "Andreas",
             "nome_completo": "Andreas Pereira",
-            "posicao": "Volantes",
+            "posicao": "Volante",
             "nascimento": "01\/01\/1996",
             "cidade": "Duffel, B\u00e9lgica",
             "imagem": "img\/jogadores\/flamengo_18.png",
@@ -142,7 +142,7 @@ const flamengo = {
         "8": {
             "nome": "Thiago Maia",
             "nome_completo": "Thiago Maia Alencar",
-            "posicao": "Volantes",
+            "posicao": "Volante",
             "nascimento": "23\/03\/1997",
             "cidade": "Boa Vista, RR",
             "imagem": "img\/jogadores\/flamengo_8.png",
@@ -151,7 +151,7 @@ const flamengo = {
         "35": {
             "nome": "Jo\u00e3o Gomes",
             "nome_completo": "Jo\u00e3o Victor Gomes da Silva",
-            "posicao": "Volantes",
+            "posicao": "Volante",
             "nascimento": "12\/02\/2001",
             "cidade": "Rio de Janeiro",
             "imagem": "img\/jogadores\/flamengo_35.png",
@@ -160,7 +160,7 @@ const flamengo = {
         "7": {
             "nome": "Everton Ribeiro",
             "nome_completo": "Everton Augusto de Barros Ribeiro",
-            "posicao": "Meias",
+            "posicao": "Meia",
             "nascimento": "10\/04\/1989",
             "cidade": "Aruj\u00e1\/SP",
             "imagem": "img\/jogadores\/flamengo_7.png",
@@ -169,7 +169,7 @@ const flamengo = {
         "10": {
             "nome": "Diego",
             "nome_completo": "Diego Ribas da Cunha",
-            "posicao": "Meias",
+            "posicao": "Meia",
             "nascimento": "28\/02\/1985",
             "cidade": "Ribeir\u00e3o Preto\/SP",
             "imagem": "img\/jogadores\/flamengo_10.png",
@@ -178,7 +178,7 @@ const flamengo = {
         "14": {
             "nome": "De Arrascaeta",
             "nome_completo": "Giorgian Daniel De Arrascaeta Benedetti",
-            "posicao": "Meias",
+            "posicao": "Meia",
             "nascimento": "01\/06\/1994",
             "cidade": "Nuevo Berl\u00edn",
             "imagem": "img\/jogadores\/flamengo_14.png",
@@ -187,7 +187,7 @@ const flamengo = {
         "9": {
             "nome": "Gabi",
             "nome_completo": "Gabriel Barbosa Almeida",
-            "posicao": "Atacantes",
+            "posicao": "Atacante",
             "nascimento": "30\/08\/1996",
             "cidade": "S\u00e3o Bernardo do Campo",
             "imagem": "img\/jogadores\/flamengo_9.png",
@@ -196,7 +196,7 @@ const flamengo = {
         "11": {
             "nome": "Vitinho",
             "nome_completo": "Victor Vin\u00edcius Coelho dos Santos",
-            "posicao": "Atacantes",
+            "posicao": "Atacante",
             "nascimento": "09\/10\/1993",
             "cidade": "Rio de Janeiro",
             "imagem": "img\/jogadores\/flamengo_11.png",
@@ -205,7 +205,7 @@ const flamengo = {
         "27": {
             "nome": "Bruno Henrique",
             "nome_completo": "Bruno Henrique Pinto",
-            "posicao": "Atacantes",
+            "posicao": "Atacante",
             "nascimento": "30\/12\/1990",
             "cidade": "Belo Horizonte",
             "imagem": "img\/jogadores\/flamengo_27.png",
@@ -214,7 +214,7 @@ const flamengo = {
         "19": {
             "nome": "Michael",
             "nome_completo": "Michael Richard Delgado de Oliveira",
-            "posicao": "Atacantes",
+            "posicao": "Atacante",
             "nascimento": "12\/03\/1996",
             "cidade": "Poxor\u00e9u, MT",
             "imagem": "img\/jogadores\/flamengo_19.png",
@@ -223,7 +223,7 @@ const flamengo = {
         "21": {
             "nome": "Pedro",
             "nome_completo": "Pedro Guilherme Abreu dos Santos",
-            "posicao": "Atacantes",
+            "posicao": "Atacante",
             "nascimento": "20\/06\/1997",
             "cidade": "Rio de Janeiro, RJ",
             "imagem": "img\/jogadores\/flamengo_21.png",
