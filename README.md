@@ -23,3 +23,4 @@ Atualização de dados dos sites dos clubes: 21/01/2022
 - [Logo Download](https://logodownload.org)
 - [Flamengo](https://www.flamengo.com.br/elencos/elenco-profissional)
 - [Palmeiras](https://www.palmeiras.com.br/elenco/)
+- [Wallpaper Flare](https://www.wallpaperflare.com)

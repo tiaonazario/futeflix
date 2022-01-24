@@ -1,17 +1,21 @@
 /* responsividade */
 @media (max-width:1200px){
     header{
-        padding:3rem 5%;
+        padding: 3rem 5%;
     }
 }
 
 @media (max-width:991px){
     header{
-        padding:3rem 2rem;
+        padding: 3rem 2rem;
     }
   
      html{
         font-size: 55%;
+    }
+
+    .slider {
+        width: 80rem;        
     }
 }
 
@@ -40,10 +44,28 @@
         display: block;
         margin: 2rem;
     }
+
+    .slider {
+        width: 50rem;        
+    }
 }
 
 @media (max-width:450px){
      html{
         font-size: 50%;
+    }
+
+    .slider {
+        width: 35rem;
+        padding-bottom: 2rem;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 1rem;
     }
 }

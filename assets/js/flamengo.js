@@ -2,6 +2,7 @@ const flamengo = {
     nome: "C.R. FLAMENGO",
     descricao: "O Clube de Regatas do Flamengo (mais conhecido simplesmente como Flamengo, e popularmente pelos apelidos de Mengo, Mengão e Fla) é uma agremiação poliesportiva brasileira com sede na cidade do Rio de Janeiro, capital do estado de mesmo nome. Fundado no bairro do Flamengo para disputas do esporte remo em 17 de novembro de 1895, tornou-se um dos clubes mais bem-sucedidos e populares do esporte brasileiro, especialmente pelo futebol. Tem como suas cores tradicionais o vermelho e o preto e como seus maiores rivais esportivos o Vasco da Gama, o Fluminense e o Botafogo.",
     escudo: "img\/times\/logo_flamengo.svg",
+    fundo: "img\/times\/fundo_flamengo.jpg",
     jogadores: {
         "1": {
             "nome": "Diego Alves",

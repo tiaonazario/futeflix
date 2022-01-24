@@ -2,6 +2,7 @@ const palmeiras = {
     nome: "S.E. PALMEIRAS",
     descricao: "Sociedade Esportiva Palmeiras (conhecida popularmente como Palmeiras) é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado homônimo. Foi fundado em 26 de agosto de 1914 e suas cores, presentes no escudo e bandeira oficial, são o verde e branco. O vermelho, presente desde sua fundação em 1914, foi excluído durante a Segunda Guerra Mundial, por pressão do governo nacional, na mesma reunião que formalizou a mudança de nome de Palestra Itália para Palmeiras.",
     escudo: "img\/times\/logo_palmeiras.svg",
+    fundo: "img\/times\/fundo_palmeiras.jpg",
     jogadores: {
         "42": {
             "nome": "MARCELO LOMBA",
