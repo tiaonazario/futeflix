@@ -2,26 +2,28 @@
 
 :root {
     --cor: #A8A6A6;
-    --cor-fundo: #1D1D1D;
+    --cor2: #E8E8E8;
     --cor-destak: #D9A900;
-    --cor-item: #E8E8E8;
+    --cor-fundo: #1D1D1D;
     --cor-alfa: rgba(0,0,0,.5)
     --cor-grad: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)100%);
     --font: 'Dosis', sans-serif;
-    --borda: .1rem solid var(--cor);
-    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --borda: .1vh solid var(--cor);
+    --box-shadow: 0 0.5vh 1vh rgba(0,0,0,.1);
 }
 
-/* configurnado o estilo e resetando o que não quero */
+/* resetando o estilo */
 * {
-    font-family: var(--font);
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: none;
     transition: all 0.4s cubic-bezier(.43, 1.1, .62, 1.08);
     text-transform: capitalize;
+    font-family: var(--font);
+    font-size: 3vh;
 }
 
 * > img {
@@ -30,7 +32,6 @@
 }
 
 html {
-    font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
@@ -38,7 +39,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-    width: 1rem;
+    width: 1vw;
 }
 
 html::-webkit-scrollbar-track {
@@ -49,11 +50,12 @@ html::-webkit-scrollbar-thumb {
     background-color: var(--cor-destak);
 }
 
+/* === === === cabeçalho === === === */
 header {
+    height: 10vh;
     background-color: var(--cor-fundo);
-    padding: 1rem 2%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+
+    padding: 2.5vh 1vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,124 +67,39 @@ header {
     z-index: 1000;
 }
 
-@keyframes fadeIn {
-    0% {
-        transform: translateY(-4rem) scale(0);
-        opacity: 0;
-    }
-}
-
-.logo {
-    font-size: 2.5rem;
+#logo {
+    font-size: 4vh;
     font-weight: bolder;
-    color: var(--cor-item);
+    color: var(--cor2);
+}
+#logo img {
+    height: 4vh;
 }
 
-.logo img {
-    height: 2.5rem;
-}
-
-.navegacao a {
-    font-size: 2rem;
-    margin-left: 2rem;
+.menu-principal a {
+    margin-left: 1vw;
     color: var(--cor);
 }
-
-.navegacao a:hover {
+.menu-principal a:hover {
     color: var(--cor-destak);
+    border-bottom: .1vh solid var(--cor-destak);
 }
 
 #btn-menu {
-    font-size: 2.5rem;
+    font-size: 4vh;
     cursor: pointer;
     color:var(--cor);
     display: none;
 }
 
-#times {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
+/* === === === conteudo === === === */
+main {
+    height: 90vh;
+    background-color: var(--cor-fundo);
 }
 
-.slider {
-    width: 100rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.btn-times {
-    font-size: 3rem;
-    cursor: pointer;
-    padding: 5rem 5rem;
-}
-
-.btn-times:hover {
-    color: var(--cor-destak);
-}
-
-.info-time {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-    background-size: cover !important;
-    background-position: center !important;
-    position: relative;
-    z-index: 0;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .4s backwards;
-}
-
-.logo-time {
-    height: 20rem;
-    padding-right: 2rem;
-    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .2s backwards;
-}
-
-.nome-time {
-    padding-top: 2rem;
-    color: var(--cor-destak);
-    border-bottom: var(--borda);
-}
-
-.descricao {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: justify;
-    text-transform: initial;
-}
-
-
-.botao {
-    background-color: var(--cor-alfa);
-    color: var(--cor);
-    border: none;
-
-    /* padding: 2vh 2vw; */
-    padding: 1rem 2rem;
-    margin-right: 1vw;
-
-    font-size: 2rem;
-    height: 5rem;
-
-    cursor: pointer;
-    transition: .3s ease all;
-    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .6s backwards;
-}
-
-.botao:hover {
-    background-color: var(--cor-destak);
-    color: var(--cor-fundo);
-}
-
-.botao i {
-    background-color: transparent;
-    margin-right: 0.5rem;
+/* === === === rodapé === === === */
+footer {
+    height: 15vh;
+    background-color: var(--cor-fundo);
 }

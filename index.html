@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FuteFlix</title>
 
-    <link rel="shortcut icon" href="img/icons/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- estilo css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- estilo responsividade -->
     <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/icons/favicon.svg" type="image/x-icon">
+
 </head>
 <body>
     <header>
-        <a href="/" class="logo"><img src="img/icons/logo.svg" alt="logo"> FuteFlix</a>
+        <!-- cabeçalho -->
+        <a href="/" id="logo">
+            <img src="img/icons/logo.svg" alt="logo"> FuteFlix
+        </a>
 
-        <nav class="navegacao">
-            <a href="/">início</a>
+        <nav class="menu-principal">
+            <a href="/">Início</a>
             <a href="#times">times</a>
             <a href="#jogadores">jogadores</a>
             <a href="#competicoes">competições</a>
@@ -24,38 +32,18 @@
     </header>
 
     <main>
-        <section class="times" id="times">
-            <div class="slider">
-                <div class="btn-times" id="btn-anterior">
-                    <i class="fas fa-chevron-left"></i>
-                </div>
-                
-                <div class="info-time">
-                    <img class="logo-time" src="" alt="logo do time">
-                    <h2 class="nome-time"></h2>
-                    <p class="descricao"></p>
-                    <div class="botoes">
-                        <button role="button" class="botao">
-                            <i class="fas fa-play"></i>
-                            VER JOGOS
-                        </button>
-                        <button role="button" class="botao">
-                            <i class="fas fa-info-circle"></i>
-                            MAIS INFORMAÇÕES
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="btn-times" id="btn-proximo">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
-            </div>
-
-        </section>
+        <!-- conteudo pricipal -->
     </main>
+        
+    <footer>
+        <!-- rodapé -->
+    </footer>
 
-    <script src="https://kit.fontawesome.com/e90370da2b.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- código js -->
     <script type="module" src="assets/js/script.js" defer></script>
+    <!-- site com icones -->
+    <script src="https://kit.fontawesome.com/e90370da2b.js" crossorigin="anonymous"></script>
+    <!-- ferramenta que gera carrossel -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </body>
 </html>
