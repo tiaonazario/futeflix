@@ -23,7 +23,7 @@
     transition: all 0.4s cubic-bezier(.43, 1.1, .62, 1.08);
     text-transform: capitalize;
     font-family: var(--font);
-    font-size: 3vh;
+    font-size: 16pt;
 }
 
 * > img {
@@ -52,7 +52,6 @@ html::-webkit-scrollbar-thumb {
 
 /* === === === cabeçalho === === === */
 header {
-    height: 10vh;
     background-color: var(--cor-fundo);
 
     padding: 2.5vh 1vw;
@@ -92,14 +91,103 @@ header {
     display: none;
 }
 
+@keyframes fadeIn {
+    0% {
+        transform: translateY(-4rem) scale(0);
+        opacity: 0;
+    }
+}
+
 /* === === === conteudo === === === */
 main {
-    height: 90vh;
     background-color: var(--cor-fundo);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.informacao-time {
+    width: 100vw;
+    /* height: 90vh; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34).4s backwards;
+}
+.logo-time {
+    height: 15vw;
+    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34).2s backwards;
+}
+.nome-time {
+    font-size: 22pt;
+    color: var(--cor-destak);
+    padding-top: 3vh;
+}
+.descricao-time {
+    width: 70vw;
+    border-top: var(--borda);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: justify;
+    text-transform: initial;
+}
+.botao {
+    background-color: var(--cor-alfa);
+    color: var(--cor);
+    border: none;
+
+    margin-right: 1vw;
+    font-size: 14pt;
+    padding: 1vw 2vh;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .6s backwards;
+}
+.botao:hover {
+    background-color: var(--cor-destak);
+    color: var(--cor-fundo);
+}
+.botao i {
+    margin-right: .5vw;
 }
 
 /* === === === rodapé === === === */
 footer {
-    height: 15vh;
     background-color: var(--cor-fundo);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.icones-rodape {
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icones-rodape a {
+    padding: .5vw;
+}
+.icones-rodape img {
+    height: 4vh;
+}
+.copyright {
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
